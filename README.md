@@ -66,9 +66,9 @@
 ##### unsigned byte 0~255 (2의 8승개, 256개 저장)
 ##### byte -128~127
 
-##### 정수 int 4byte, short 2byte, byte 1byte, long 8byte
-##### 실수 double 8byte, float 4byte
-##### 문자 char 
++ 정수 int 4byte, short 2byte, byte 1byte, long 8byte
++ 실수 double 8byte, float 4byte
++ 문자 char 
 
 ##### 0.1=>0.0001.....(2진법)(무한소수 형태로 나타남)
 
