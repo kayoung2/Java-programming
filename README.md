@@ -34,19 +34,19 @@
 		  height = myScanner.nextDouble();
 		
 	  	myScanner.nextLine(); // 버퍼를 비우는 용도, next말고 nextLine을 사용하기 위해서
-		  // nextInt, nextDouble, next는 비슷하고 nextLine은 좀 다르다. nextLine은 메모리에 있는 엔터까지 들고 가버린다!
+		  // nextInt, nextDouble, next는 비슷하고 nextLine은 좀 다르다. nextLine은 메모리에 있는 엔터까지 들고 감!
 		  // 버퍼를 비우는 것은 비슷한 세 종류 다음에 nextLine을 쓸 때만 사용
 		
 	  	System.out.print("이름 : ");
 		
 		  name = myScanner.nextLine(); // myScanner가 한 줄 읽어온 것을 name에다 저장해라.
-		  // nextLine이라고 하면 앞의 엔터를 입력으로 받아들이는 오류를 고치기 위해 next로 사용, 대신 띄어쓰기를 하면 안 됨.
+		  // nextLine이 앞의 엔터를 입력으로 받아들이는 오류를 고치기 위해 next로 사용, 대신 띄어쓰기를 하면 안 됨.
 		
 		
 		
 		  System.out.println("나이 : "+age);
     	// System.out.println("이름은 "+name+"입니다.");
-		  System.out.printf("당신의 키는 %.1f입니다.\n", height); // f는 formatted로 f를 붙이면 서식지정자 사용 가능하다.
+		  System.out.printf("당신의 키는 %.1f입니다.\n", height); // f는 formatted로 f를 붙이면 서식지정자 사용 가능
 		  // 정수 %d, 문자 %c, 문자열 %s, 실수 %f 
 		  System.out.printf("이름은 %s입니다.\n", name);
 		
