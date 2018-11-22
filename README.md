@@ -40,7 +40,7 @@
 	  	System.out.print("이름 : ");
 		
 		  name = myScanner.nextLine(); // myScanner가 한 줄 읽어온 것을 name에다 저장해라.
-		  // nextLine이라고 하면 앞의 엔터를 입력으로 받아들이는 오류를 고치기 위해 next로 사용, 대신 띄어쓰기를 하면 안 됨. 이 가영->이
+		  // nextLine이라고 하면 앞의 엔터를 입력으로 받아들이는 오류를 고치기 위해 next로 사용, 대신 띄어쓰기를 하면 안 됨.
 		
 		
 		
